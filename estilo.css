@@ -1,0 +1,64 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 50%;
+    margin: 2em auto;
+}
+
+form {
+    background-color: lightgray;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+label {
+    display: block;
+}
+
+#tabela {
+    display: none;
+}
+
+#participantes{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#participantes thead tr {
+    background-color: #afafaf;
+    color: #fff;
+}
+
+#participantes tbody tr:nth-child(even) {
+    background-color: #ebebeb;
+}
+
+#participantes th, #participantes td {
+    padding: .3em;
+    border: 1px solid #afafaf;
+    text-align: center;
+}
+
+#participantes th:first-child, #participantes td:first-child {
+    text-align: left;
+    width: 75%;
+}
+
+.excluir {
+    color: red;
+    font-weight: bold;
+    transition: color .5s,  background-color .5s;
+}
+
+.excluir:hover {
+    color: #fff;
+    background-color: red;
+}
+
+#total {
+    margin-top: 1em;
+    font-weight: bold;
+}

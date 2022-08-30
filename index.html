@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vaquinha</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <form action="" id="cadastro">
+    <label for="valor">Valor (em Reais): </label>
+    <input type="number" name="valor" id="valor" value="120">
+    <label for="nome">Participante: </label>
+    <input type="text" name="nome" id="nome" required>
+    <button id="cadastrar">Cadastrar</button>
+  </form>
+  <div id="tabela">
+    <h2>Participantes</h2>
+    <table id="participantes">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Valor</th>
+          <th>Pago</th>
+          <th>Ação</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <section id="total"></section>
+  </div>
+  <script src="scripts.js"></script>
+
+</body>
+
+</html>
